@@ -64,12 +64,10 @@ module Factories
 
           @logger.debug "renewing: #{ce.full_name}"
           if ce.ssn.present?
-            @logger.debug " #{ce.full_name} does have an ssn "
             encrypted_ssn =  Person.encrypt_ssn(ce.ssn)
             person = Person.where(encrypted_ssn: encrypted_ssn).first
           else
-            @logger.debug " #{ce.full_name} does not have an ssn "
-            person = Person.where(first_name: ce.first_name, last_name: ce.last_name, dob: ce.dob).first
+            Person.where(first_name: /.*#{first_name}.*/i, last_name: /.*#{last_name}.*/i, dob: dob).first
           end
 
           if person.blank?
