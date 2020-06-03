@@ -117,7 +117,7 @@ group :test do
   gem 'database_cleaner', '1.5.3'
   gem 'fakeredis', :require => 'fakeredis/rspec'
   gem 'mongoid-rspec', '3.0.0'
-  gem 'poltergeist'
+  gem 'poltergeist', '>= 1.16.0'
   gem 'shoulda-matchers', '3.1.1'
   gem 'simplecov', '0.14.1', :require => false
   gem 'warden'
