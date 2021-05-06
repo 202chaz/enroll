@@ -78,7 +78,7 @@ gem 'wkhtmltopdf-binary-edge', '~> 0.12.3.0'
 #######################################################
 
 group :doc do
-  gem 'sdoc', '~> 0.4.0'
+  gem 'sdoc', '~> 1.0.0'
 end
 
 group :development do
