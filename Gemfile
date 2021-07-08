@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'aasm', '~> 4.8.0'
 gem 'acapi', git: 'https://github.com/dchbx/acapi.git', branch: '1.3.1'
-gem 'addressable', '2.3.8'
+gem 'addressable', '2.8.0'
 gem 'animate-rails', '~> 1.0.7'
 gem 'aws-sdk', '2.2.4'
 gem 'bootstrap-multiselect-rails', '~> 0.9.9'
@@ -111,13 +111,13 @@ end
 group :test do
   gem 'action_mailer_cache_delivery', '~> 0.3.7'
   gem 'capybara', '2.6.2'
-  gem 'capybara-screenshot'
+  gem 'capybara-screenshot', '>= 1.0.18'
   gem 'cucumber', '2.3.3'
   gem 'cucumber-rails', '1.4.3', :require => false
   gem 'database_cleaner', '1.5.3'
   gem 'fakeredis', :require => 'fakeredis/rspec'
   gem 'mongoid-rspec', '3.0.0'
-  gem 'poltergeist'
+  gem 'poltergeist', '>= 1.16.0'
   gem 'shoulda-matchers', '3.1.1'
   gem 'simplecov', '0.14.1', :require => false
   gem 'warden'
