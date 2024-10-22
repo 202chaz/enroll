@@ -24,7 +24,7 @@ gem 'jquery-datatables-rails', '3.4.0'
 gem 'jquery-rails', '4.0.5'
 gem 'jquery-turbolinks'
 gem 'jquery-ui-rails'
-gem 'kaminari', '0.17.0'
+gem 'kaminari', '1.0.0'
 gem 'language_list', '~> 1.1.0'
 gem 'less-rails-bootstrap', '~> 3.3.1.0'
 gem 'mail', '2.6.3'
@@ -43,19 +43,19 @@ gem 'nokogiri-happymapper', :require => 'happymapper'
 gem 'openhbx_cv2', git: 'https://github.com/dchbx/openhbx_cv2.git', branch: 'master'
 gem 'prawn', :git => 'https://github.com/prawnpdf/prawn.git', :ref => '8028ca0cd2'
 gem 'pundit', '~> 1.0.1'
-gem 'rails', '4.2.7.1'
+gem 'rails', '7.0.0'
 gem 'rails-i18n', '4.0.8'
 gem 'recaptcha', '1.1.0'
 gem 'redis-rails'
 gem 'resque'
 gem 'roo', '~> 2.1.0'
 gem 'ruby-saml', '~> 1.3.0'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 gem 'slim-rails'
 gem 'sprockets' , '~> 2.12.3'
 gem 'symmetric-encryption', '~> 3.6.0'
 gem 'therubyracer', platforms: :ruby
-gem 'turbolinks','2.5.3'
+gem 'turbolinks', '5.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'virtus'
 gem 'wicked_pdf', '1.0.6'
@@ -82,7 +82,7 @@ group :doc do
 end
 
 group :development do
-  gem 'web-console', '2.3.0'
+  gem 'web-console', '3.0.0'
   gem 'rubocop', "0.54.0", require: false
 end
 
@@ -113,7 +113,7 @@ group :test do
   gem 'capybara', '2.6.2'
   gem 'capybara-screenshot'
   gem 'cucumber', '2.3.3'
-  gem 'cucumber-rails', '1.4.3', :require => false
+  gem 'cucumber-rails', '2.1.0', :require => false
   gem 'database_cleaner', '1.5.3'
   gem 'fakeredis', :require => 'fakeredis/rspec'
   gem 'mongoid-rspec', '3.0.0'
