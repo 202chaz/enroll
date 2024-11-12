@@ -44,7 +44,7 @@ gem 'openhbx_cv2', git: 'https://github.com/dchbx/openhbx_cv2.git', branch: 'mas
 gem 'prawn', :git => 'https://github.com/prawnpdf/prawn.git', :ref => '8028ca0cd2'
 gem 'pundit', '~> 1.0.1'
 gem 'rails', '4.2.7.1'
-gem 'rails-i18n', '4.0.8'
+gem 'rails-i18n', '8.0.0'
 gem 'recaptcha', '1.1.0'
 gem 'redis-rails'
 gem 'resque'
