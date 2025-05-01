@@ -100,7 +100,7 @@ group :development, :test do
   gem 'pry-remote'
   gem 'pry-stack_explorer'
   gem 'railroady', '~> 1.5.2'
-  gem 'rspec-rails', '~> 3.4.2'
+  gem 'rspec-rails', '~> 8.0.0'
   gem 'rspec_junit_formatter', '0.2.3'
   gem 'ruby-progressbar', '~> 1.7'
   gem 'spring', '1.6.3'
